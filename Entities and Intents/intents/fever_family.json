@@ -1,0 +1,72 @@
+{
+  "id": "1ef5da99-51d3-41fe-a779-ebc0cb1abbda",
+  "name": "fever_family",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "22b94f5e-09a3-44ab-93dc-4f7596a38359",
+          "required": true,
+          "dataType": "@sys.temperature",
+          "name": "temperature",
+          "value": "$temperature",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Ok.. please tell me  your body temperature?"
+            },
+            {
+              "lang": "en",
+              "value": "Hmm.. Ok, what is your body temperature?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c88df96d-2abc-4f28-9843-0e850317e3ab",
+          "required": true,
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Since how many days is this happening?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Hmm I see, do you feel something else also?",
+            "Ok, Can you tell me what else do you feel?",
+            "Ok, could you tell me more things you are feeling."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

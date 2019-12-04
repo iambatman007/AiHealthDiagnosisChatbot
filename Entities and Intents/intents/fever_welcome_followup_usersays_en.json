@@ -1,0 +1,271 @@
+[
+  {
+    "id": "7a7deed9-599f-488d-844e-e56152e31b0d",
+    "data": [
+      {
+        "text": "My body temp is very hot",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6f8344c3-f640-41ee-911e-deada9bc3e3a",
+    "data": [
+      {
+        "text": "I am having a fever",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "2b49f124-2983-4393-9699-94f83081ebe0",
+    "data": [
+      {
+        "text": "I don\u0027t feel well ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "7db63046-915c-4f49-b9e8-fc3adbc60b04",
+    "data": [
+      {
+        "text": "My body temperature is very hot ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "e1ea1422-4a90-42ee-ad97-f1d526c2f544",
+    "data": [
+      {
+        "text": "I am very sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5d5f4165-5f1b-40c3-9331-bfbf91531780",
+    "data": [
+      {
+        "text": "I am sick",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ea9287b3-ff57-43d2-89b8-6b4b01a662cf",
+    "data": [
+      {
+        "text": "I am not feeling well ",
+        "userDefined": false
+      },
+      {
+        "text": "today",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "8f13d420-2bad-4da3-92a5-165c0173214f",
+    "data": [
+      {
+        "text": "I am having fever since ",
+        "userDefined": false
+      },
+      {
+        "text": "10 days",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "6cc1a1c2-0743-4731-967a-7c415bbade08",
+    "data": [
+      {
+        "text": "I am having fever since ",
+        "userDefined": false
+      },
+      {
+        "text": "7 days",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "912ea1be-883a-4719-8512-af1148625273",
+    "data": [
+      {
+        "text": "I am suffering from a very high fever ",
+        "userDefined": false
+      },
+      {
+        "text": "from the past one week",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b1fad29-b777-4b46-b483-17de77b4f939",
+    "data": [
+      {
+        "text": "I am having fever ",
+        "userDefined": false
+      },
+      {
+        "text": "from the past 2 weeks",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "af8998db-d81d-474b-80e1-244711ecaaf6",
+    "data": [
+      {
+        "text": "My body is very hot, I think I have fever?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0a7f1a85-ca44-4b20-b95f-9c659e19ecd6",
+    "data": [
+      {
+        "text": "My body is very hot, do you think I have fever?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f1d6d6cb-cc98-4260-b944-9eb9b911df2c",
+    "data": [
+      {
+        "text": "My temp is ",
+        "userDefined": false
+      },
+      {
+        "text": "100 F",
+        "alias": "temperature",
+        "meta": "@sys.temperature",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b27b2f83-d527-4152-a98e-962cf6298b69",
+    "data": [
+      {
+        "text": "My temperature is ",
+        "userDefined": false
+      },
+      {
+        "text": "102 F",
+        "alias": "temperature",
+        "meta": "@sys.temperature",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f19f6288-0f4d-49cd-8eaf-d2af4ab6c041",
+    "data": [
+      {
+        "text": "I am not well",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "920aecc0-d28d-4cf1-9973-a6e66e0737c3",
+    "data": [
+      {
+        "text": "I am not well from ",
+        "userDefined": false
+      },
+      {
+        "text": "2 days",
+        "alias": "duration",
+        "meta": "@sys.duration",
+        "userDefined": false
+      },
+      {
+        "text": " and have a fever of ",
+        "userDefined": false
+      },
+      {
+        "text": "102 F",
+        "alias": "temperature",
+        "meta": "@sys.temperature",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

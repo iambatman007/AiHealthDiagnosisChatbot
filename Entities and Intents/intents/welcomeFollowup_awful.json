@@ -1,0 +1,43 @@
+{
+  "id": "5c0c42c4-6054-4900-8be7-897aead28718",
+  "parentId": "bd19e46f-e212-4901-a1ac-50911bdb296e",
+  "rootParentId": "bd19e46f-e212-4901-a1ac-50911bdb296e",
+  "name": "welcomeFollowup_awful",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "welcomeFeverContext",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Oh Dear! I am sorry to hear that. How can I help you?",
+            "Oh! what happen dear, tell me I will help you out.",
+            "Sad to hear that tell me what happen?",
+            "Ok sorry to hear that, could you tell me more"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

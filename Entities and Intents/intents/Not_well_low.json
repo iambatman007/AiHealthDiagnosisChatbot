@@ -1,0 +1,111 @@
+{
+  "id": "b33f2e5f-0ad7-4d59-81fc-da83e57480ef",
+  "name": "Not_well_low",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.lowSymptoms",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d4932ca1-e983-4454-a09d-45a9204069da",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "appetiteLoss",
+          "value": "$appetiteLoss",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "OK, I almost understand what are you feeling. Do you feel not eating anything?"
+            },
+            {
+              "lang": "en",
+              "value": "We are almost there, just tell me is there any appetite loss that you felt?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ae934742-378b-495a-a584-051f3f657dd0",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "cough",
+          "value": "$cough",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you often cough during the day?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you experience coughing?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "8b587461-f9eb-499f-961d-280132d44542",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "painEyes",
+          "value": "$painEyes",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Thanks for being patient, just one last thing. Is eye aches or do you feel pain behind the eyes?"
+            },
+            {
+              "lang": "en",
+              "value": "Ah Ok.. one last thing. Do you feel any pain in the eyes or behind the eyes?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "10591d23-4b2d-43f6-869f-8c1b0b2b8c99",
+          "required": false,
+          "dataType": "@Boolean",
+          "name": "metallicTaste",
+          "value": "$metallicTaste",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "low_symptoms_event"
+    }
+  ]
+}

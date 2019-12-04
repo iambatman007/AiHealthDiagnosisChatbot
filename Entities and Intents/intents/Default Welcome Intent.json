@@ -1,0 +1,49 @@
+{
+  "id": "bd19e46f-e212-4901-a1ac-50911bdb296e",
+  "name": "Default Welcome Intent",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.welcome",
+      "affectedContexts": [
+        {
+          "name": "DefaultWelcomeIntent-followup",
+          "parameters": {},
+          "lifespan": 4
+        },
+        {
+          "name": "welcomeFeverContext",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Greetings! How are you today?",
+            "Hello, how are you dear?",
+            "Hello dear! nice seeing you today. How are you?",
+            "Hi ! How\u0027s it going?",
+            "Hi ! How\u0027re you doing?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "WELCOME"
+    }
+  ]
+}

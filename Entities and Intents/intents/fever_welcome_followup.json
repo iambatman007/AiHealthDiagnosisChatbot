@@ -1,0 +1,79 @@
+{
+  "id": "8aca7133-f394-4f47-b5b6-3dacab38a923",
+  "name": "fever_welcome_followup",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup",
+    "welcomeFeverContext"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "22b94f5e-09a3-44ab-93dc-4f7596a38359",
+          "required": true,
+          "dataType": "@sys.temperature",
+          "name": "temperature",
+          "value": "$temperature",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Ok..could you help me with your Body temperature?"
+            },
+            {
+              "lang": "en",
+              "value": "Can you please tell me what is your body temperature?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c88df96d-2abc-4f28-9843-0e850317e3ab",
+          "required": true,
+          "dataType": "@sys.duration",
+          "name": "duration",
+          "value": "$duration",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "and since how many days is it happening?"
+            },
+            {
+              "lang": "en",
+              "value": "and from how much time is it going on?"
+            },
+            {
+              "lang": "en",
+              "value": "and from how many days is it happening?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Ok sorry to hear that, could you tell me more"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

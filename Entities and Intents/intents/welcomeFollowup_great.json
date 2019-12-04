@@ -1,0 +1,42 @@
+{
+  "id": "4a337a55-036a-46f5-ba9b-b32d664f01f4",
+  "parentId": "bd19e46f-e212-4901-a1ac-50911bdb296e",
+  "rootParentId": "bd19e46f-e212-4901-a1ac-50911bdb296e",
+  "name": "welcomeFollowup_great",
+  "auto": true,
+  "contexts": [
+    "DefaultWelcomeIntent-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DefaultWelcomeIntent.DefaultWelcomeIntent-custom",
+      "affectedContexts": [
+        {
+          "name": "welcomeFeverContext",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Good, Is there anything I can help you with?",
+            "Nice! How can I help you today?",
+            "Good to hear, what can I do for you today?"
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": []
+}

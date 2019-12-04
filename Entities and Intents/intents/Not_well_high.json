@@ -1,0 +1,159 @@
+{
+  "id": "37ad7694-4220-49b6-b58c-2d0053562936",
+  "name": "Not_well_high",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.highSymptoms",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b23784c4-3f8d-47a1-ae0c-fec3e79a909d",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "headache",
+          "value": "$headache",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Oh!! I am really sorry to hear that.... can you tell if you also feel Headache ?"
+            },
+            {
+              "lang": "en",
+              "value": "Oh dear!! that is unfortunate... are you also experiencing headache?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7f3da31c-6637-45d1-a06e-6c13af3999ab",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "nauseaVomit",
+          "value": "$nauseaVomit",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hmm....ok.. did you ever feel like vomiting?"
+            },
+            {
+              "lang": "en",
+              "value": "Ok.. did you ever felt nauseated in these days?"
+            },
+            {
+              "lang": "en",
+              "value": "hmm.. ok .. did you vomit or was nauseated in these days?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "c5a68d29-0bfe-4bf3-a843-9f439f86192b",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "jointPain",
+          "value": "$jointPain",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Are your joints also aching?"
+            },
+            {
+              "lang": "en",
+              "value": "Ok.. do you problem doing daily tasks due to joint pains?"
+            },
+            {
+              "lang": "en",
+              "value": "Ok.. is any of your joint also aches?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "4f4918fc-2ce9-4af0-b966-faba8b7807e2",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "musclePain",
+          "value": "$musclePain",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Did you ever felt that your muscles are very tired or painful?"
+            },
+            {
+              "lang": "en",
+              "value": "Are your muscles aching?"
+            },
+            {
+              "lang": "en",
+              "value": "Do you feel any muscular pain?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "9a57426d-1b47-45c2-a853-aa9184b29cd3",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "diarrhea",
+          "value": "$diarrhea",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Do you experience Diarrhea?"
+            },
+            {
+              "lang": "en",
+              "value": "Is your stomach fine?...did you had loose motions?"
+            },
+            {
+              "lang": "en",
+              "value": "Are you having loose motions?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "high_symptoms_event"
+    }
+  ]
+}

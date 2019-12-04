@@ -1,0 +1,129 @@
+[
+  {
+    "value": "Shivering",
+    "synonyms": [
+      "Chills",
+      "Shivering",
+      "shiver",
+      "shivered"
+    ]
+  },
+  {
+    "value": "abdominalPain",
+    "synonyms": [
+      "abdominal pain",
+      "pain in stomach",
+      "stomach ache"
+    ]
+  },
+  {
+    "value": "appetiteLoss",
+    "synonyms": [
+      "appetiteLoss",
+      "don\u0027t feel like eating",
+      "loss in appetite"
+    ]
+  },
+  {
+    "value": "cough",
+    "synonyms": [
+      "cough"
+    ]
+  },
+  {
+    "value": "diarrhea",
+    "synonyms": [
+      "diarrhea",
+      "loose motions"
+    ]
+  },
+  {
+    "value": "headache",
+    "synonyms": [
+      "head is aching",
+      "headache"
+    ]
+  },
+  {
+    "value": "jointPain",
+    "synonyms": [
+      "arthralgia",
+      "joint pain",
+      "pain in joint",
+      "pain in joints",
+      "pain in the joint",
+      "pain in the joints"
+    ]
+  },
+  {
+    "value": "metallicTaste",
+    "synonyms": [
+      "metallic taste in mouth",
+      "metallicTaste",
+      "mouth is wierd",
+      "weird taste"
+    ]
+  },
+  {
+    "value": "musculePain",
+    "synonyms": [
+      "fatigue",
+      "feel very tired",
+      "muscular pain",
+      "muscule pain",
+      "mylagia",
+      "pain in muscule"
+    ]
+  },
+  {
+    "value": "nauseVomit",
+    "synonyms": [
+      "Vomit",
+      "nauseVomit",
+      "nausea",
+      "nausea and vomit",
+      "vomitting"
+    ]
+  },
+  {
+    "value": "painBehindEyes",
+    "synonyms": [
+      "pain behind eyes",
+      "pain behind the eyes",
+      "pain in the eye",
+      "painEyes"
+    ]
+  },
+  {
+    "value": "rash",
+    "synonyms": [
+      "rash",
+      "rashes"
+    ]
+  },
+  {
+    "value": "redEye",
+    "synonyms": [
+      "red eyes",
+      "redEye",
+      "redness in eye",
+      "redness in the eyes"
+    ]
+  },
+  {
+    "value": "shiver",
+    "synonyms": [
+      "chilling",
+      "chills",
+      "shiver",
+      "shivering"
+    ]
+  },
+  {
+    "value": "sweating",
+    "synonyms": [
+      "sweating",
+      "sweats"
+    ]
+  }
+]

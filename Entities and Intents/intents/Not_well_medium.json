@@ -1,0 +1,103 @@
+{
+  "id": "7a4f2112-20a8-4917-8413-a998a485d102",
+  "name": "Not_well_medium",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "input.mediumSymptoms",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "613fa196-ae3a-41b3-822e-55b387ddc38f",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "abdominalPain",
+          "value": "$abdominalPain",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "I think I will need some more information from you. OK, tell me does your stomach hurts?"
+            },
+            {
+              "lang": "en",
+              "value": "I will need to know more things you are feeling. Is your stomach aching"
+            },
+            {
+              "lang": "en",
+              "value": "Hmm ....what else do you feel? Like, do you feel pain in abdomen?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "7bd90dd2-2681-4d0c-a3d7-c978450894eb",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "rash",
+          "value": "$rash",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Ok dear, are there any rashes around your body?"
+            },
+            {
+              "lang": "en",
+              "value": "Dear.. can you tell me if you see sign of rash on your body?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "ca280db7-6f04-4fe5-aab9-ada3a01e22ff",
+          "required": true,
+          "dataType": "@Boolean",
+          "name": "chillSweat",
+          "value": "$chillSweat",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Hmm... tell me one more thing.. did you experienced chills or sweating in the past days?"
+            },
+            {
+              "lang": "en",
+              "value": "Did you felt chills or sweats in any of the days?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "medium_symptoms_event"
+    }
+  ]
+}

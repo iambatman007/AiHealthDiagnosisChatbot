@@ -1,0 +1,43 @@
+[
+  {
+    "id": "680b9410-b981-4709-8b4a-3af2b721a8d7",
+    "data": [
+      {
+        "text": "I have other symptoms",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "48aa1cd7-ea13-4039-a68e-2bc0a41d7043",
+    "data": [
+      {
+        "text": "ya",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " I have other symptoms too",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f7c7518c-3d16-4ca7-87f6-58c0ef44002f",
+    "data": [
+      {
+        "text": "yes I have other symptoms too",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

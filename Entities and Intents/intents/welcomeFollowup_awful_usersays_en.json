@@ -1,0 +1,103 @@
+[
+  {
+    "id": "dba293ed-0771-4946-b5a0-a49c810d4e03",
+    "data": [
+      {
+        "text": "not good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "3b9d5d15-c2ef-4d83-b6ff-8d4256a3c931",
+    "data": [
+      {
+        "text": "not so good",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ff026c87-4f71-45b1-821f-d478cccca640",
+    "data": [
+      {
+        "text": "I am not feeling ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "db64192f-62bb-49b2-a626-7791809203e7",
+    "data": [
+      {
+        "text": "I am not ok",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "64375462-0ecd-47d1-8190-50f8ac5fd101",
+    "data": [
+      {
+        "text": "not so great",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "610b0a30-6087-4a07-a098-e9a04c561b1b",
+    "data": [
+      {
+        "text": "naah",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " not so great",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "360e89d9-08f9-43dc-90f9-416eb53470a1",
+    "data": [
+      {
+        "text": "awful",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ed100127-53e9-455d-831e-6d253471e065",
+    "data": [
+      {
+        "text": "I am in bad state",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

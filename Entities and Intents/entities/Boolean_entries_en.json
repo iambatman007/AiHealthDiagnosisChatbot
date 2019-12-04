@@ -1,0 +1,39 @@
+[
+  {
+    "value": "false",
+    "synonyms": [
+      "I am not sure",
+      "I cannot say for sure",
+      "I don\u0027t think so",
+      "Naah",
+      "Not really",
+      "false",
+      "never",
+      "no",
+      "nope",
+      "not happened",
+      "not yet"
+    ]
+  },
+  {
+    "value": "true",
+    "synonyms": [
+      "I beleive so",
+      "I believe so",
+      "I think ya",
+      "I think yes",
+      "it happens",
+      "may be",
+      "maybe",
+      "only a few times",
+      "somtimes",
+      "true",
+      "ya",
+      "ya sure",
+      "yes",
+      "yes it does",
+      "yes sure",
+      "yup"
+    ]
+  }
+]
