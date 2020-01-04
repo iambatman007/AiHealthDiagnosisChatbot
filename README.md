@@ -25,3 +25,5 @@ Nausea => (Not Chikungunya, 0.6) // Implies(‘malaria’ or 'dengue')
 Joint Pain => (Chikungunya, 0.8)
 
 Result : Chikungunya with 61% belief
+
+Live access : https://bot.dialogflow.com/healthybot
