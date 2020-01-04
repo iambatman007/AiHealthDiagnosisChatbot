@@ -11,3 +11,17 @@ a. G. Shafer, “A Mathematical Theory of Evidence,” Princeton University Pres
 b M. Fedrizzi, J. Kacprzyk, and R. R. Yager, Eds., Advances in the Dempster-Shafer Theory of Evidence. John Wiley & Sons, 1994.
 
 3. Phase Police: This approach divides the clinical questions in different phases based on the relevancy high, medium and low. This division is subjective and based on the family of disease and requires a doctor to factor the symptoms based on the relevancy.
+
+
+Platform: Google Dialogflow
+
+Test Scenario
+
+Frame of Discernment ( Ω ) = {‘malaria’, ‘dengue’, 'chikungunya'}
+
+Arguments:
+Headache=> (Not Malaria, 0.7) // Implies (‘dengue’ or 'chikungunya')
+Nausea => (Not Chikungunya, 0.6) // Implies(‘malaria’ or 'dengue')
+Joint Pain => (Chikungunya, 0.8)
+
+Result : Chikungunya with 61% belief
