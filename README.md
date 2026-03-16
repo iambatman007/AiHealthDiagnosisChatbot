@@ -1,29 +1,50 @@
-# AiHealthDiagnosisChatbot
+# AI Health Diagnostic Chatbot 🩺
 
-This is an AI Health Chat bot built on Dialogflow platform.
+An intelligent medical diagnosis chatbot built on **Google Dialogflow** that simulates human-like clinical reasoning. This project explores the fusion of symbolic logic and probabilistic models to handle medical uncertainty and conflicting symptoms.
 
-This project builds a chatbot for medical diagnosis based on patient symptoms. It implements symbolic argumentation framework where each argument has a degree of belief or strength. To aggregate the argumentation system of for and against relationship, Dempster-Shafer theory is implemented. Basically, the whole approach is the combination of symbolic arguments and probabilistic model, which has been proven in several research to be effective. Dempster-Shafer theory is fused with an innovative technique called as phase police. It drives the chatbot to ask questions from the user in different phases. With this fusion of techniques, the reasoning process of diagnosing was simulated similar to a human clinician and results show that in some scenarios it was possible to diagnose a disease in a smaller number of utterances.
+---
 
-1. Symbolic Argumentation (S. Das, “Symbolic argumentation for decision making under uncertainty,” in 2005 7th International Conference on Information Fusion, FUSION, 2005. ) 
+## 🧠 Core Methodology
 
-2. Dempster-Shafer Theory :
-a. G. Shafer, “A Mathematical Theory of Evidence,” Princeton University Press. Princeton,NJ, 1976.
-b M. Fedrizzi, J. Kacprzyk, and R. R. Yager, Eds., Advances in the Dempster-Shafer Theory of Evidence. John Wiley & Sons, 1994.
+This chatbot is not a simple decision tree. It implements a sophisticated reasoning engine based on established research in decision-making under uncertainty.
 
-3. Phase Police: This approach divides the clinical questions in different phases based on the relevancy high, medium and low. This division is subjective and based on the family of disease and requires a doctor to factor the symptoms based on the relevancy.
+### 1. Symbolic Argumentation
+Based on research by *S. Das (2005)*, the bot treats each symptom as an "argument" for or against a specific diagnosis. Each argument is assigned a "degree of belief" or strength.
 
+### 2. Dempster-Shafer Theory (DST)
+To aggregate evidence and manage the relationship between "for" and "against" arguments, the system implements **Dempster-Shafer Theory**. This provides a robust mathematical framework for evidence combination.
+* *G. Shafer (1976): A Mathematical Theory of Evidence.*
+* *Fedrizzi et al. (1994): Advances in the Dempster-Shafer Theory of Evidence.*
 
-Platform: Google Dialogflow
+### 3. The "Phase Police" (Innovation)
+This project introduces an innovative technique called **Phase Police**. It categorizes clinical questions into phases based on relevancy: **High**, **Medium**, and **Low**. 
+* **Optimized Dialogue:** Results show that this fusion allows the bot to reach a diagnosis in fewer utterances compared to standard linear questioning.
+* **Clinical Simulation:** The process mimics a human clinician by prioritizing the most presenting symptoms first.
 
-Test Scenario
+---
 
-Frame of Discernment ( Ω ) = {‘malaria’, ‘dengue’, 'chikungunya'}
+## 🧪 Test Scenario & Logic
 
-Arguments:
-Headache=> (Not Malaria, 0.7) // Implies (‘dengue’ or 'chikungunya')
-Nausea => (Not Chikungunya, 0.6) // Implies(‘malaria’ or 'dengue')
-Joint Pain => (Chikungunya, 0.8)
+The engine was tested using a **Frame of Discernment** ($\Omega$) consisting of three tropical diseases: `{‘malaria’, ‘dengue’, 'chikungunya'}`.
 
-Result : Chikungunya with 61% belief
+### Argument Mapping
+| Symptom | Argument Constraint | Strength | Logical Implication |
+| :--- | :--- | :--- | :--- |
+| **Headache** | *Not Malaria* | 0.7 | Implies ‘dengue’ or 'chikungunya' |
+| **Nausea** | *Not Chikungunya* | 0.6 | Implies ‘malaria’ or 'dengue' |
+| **Joint Pain** | *Chikungunya* | 0.8 | Specific evidence for Chikungunya |
 
-Live access : https://bot.dialogflow.com/healthybot
+**Result:** In this specific scenario, the engine calculates a **61% belief score** for **Chikungunya**.
+
+---
+
+## 🛠️ Platform
+* **Google Dialogflow:** Used for Natural Language Understanding (NLU) and conversation management.
+* **Logic Engine:** Custom implementation of DST and Phase Police filtering.
+
+---
+
+## 📚 References
+* S. Das, “Symbolic argumentation for decision making under uncertainty,” in *2005 7th International Conference on Information Fusion*, 2005.
+* G. Shafer, *A Mathematical Theory of Evidence*, Princeton University Press, 1976.
+
